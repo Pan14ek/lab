@@ -1,0 +1,45 @@
+.actionRegistrationBar{
+  border-radius: 5px; 
+  margin: 15px auto; 
+  width: 500px; 
+  -webkit-perspective: 1000;
+  filter: alpha(Opacity=80);
+  background-color: #004a99;
+  text-align:center;
+}
+
+.actionRegistrationBar fieldset { 
+    display: block; 
+    margin: 0; 
+    padding: 20px; 
+    background: #fff; 
+    border: 1px solid rgba(0,0,0,.3); 
+    border-top: 0; 
+    border-radius: 0 0 5px 5px; 
+    box-shadow: 0 1px 2px #aaa;
+    opacity: 0.95;
+}
+
+.actionRegistrationBar input { 
+    width: 238px; 
+    margin: 0; 
+    padding: 12px 10px; 
+    border: 1px solid #ccc; 
+    outline: none; 
+    font-size: 14px;
+}
+
+.actionRegistrationBar h1{
+  padding-top: 20px;
+  color:white;
+}
+
+.button{
+  color:white;
+  font-size: 50px;
+  background-color:#01407f;
+}
+
+.button:hover{
+  background-color:#015cb7;
+}

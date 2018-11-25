@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Городской прокат велосипедов</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="logInStyle.css">
+</head>
+<body>
+
+<header>
+	<nav class = 'menu'>
+		<a class="logoMenu" href = 'index.html'><img class = 'imageLogo' src="bicycle_logo.png"></a>
+		<a href = 'index.html' class = 'listMenu'>Главная</a>
+		<a href = 'price.html' class = 'listMenu'>Цены</a>
+		<a href = 'info.html' class = 'listMenu'>Принцип велопроката</a>
+		<a href = 'LogIn.html' class = 'listMenu'>Зарегистрироваться</a>
+	</nav>
+</header>
+
+<main>
+	<div class="actionRegistrationBar">
+		<div class="flip">
+      <h1>Регистрация</h1>
+      	<p class="login-msg"></p>
+        <form>
+        <fieldset>
+        	<p id = 'info'>Введите ваш email</p>
+          <input type="email" id = "mail" placeholder="Введите Ваш email адрес..." required/>
+          <p id = 'info'>Введите ваш пароль</p>
+          <input type="password" id = "pas"  placeholder="Введите ваш пароль..." required/>
+          <p id = 'info'>Введите ваше имя</p>
+          <input type="text" id="name" placeholder="Введите ваше имя" required/>
+          <p id = 'info'>Введите ваш номер телефона</p>
+    	  <input type="tel" placeholder="380-XXX-XXX-XXX" pattern="380-[0-9]{3}-[0-9]{3}-[0-9]{3}" required/>
+    	  <p id = 'info'>Введите дату рождения <b title="Чтобы облегчить написание даты,вы можете воспользоватся календарем используя триугольник на форме с датой">*</b></p>
+    	  <input type="date" name="bday">
+          <input type="submit" class = "button" value="Зарегистрироваться"/>
+      </fieldset>
+        </form>
+    </div>
+	</div>
+</main>
+
+<footer>
+	<nav class = 'footerItems'>
+		<a href = 'index.html' class = 'listMenu'><img class = 'image' src="google.png"></a>
+		<a href = 'index.html' class = 'listMenu'><img class = 'image' src="inst.png"></a>
+		<a href = 'index.html' class = 'listMenu'><img class = 'image' src="twitter.png"></a>
+		<a href = 'index.html' class = 'listMenu'><img class = 'image' src="youtube.png"></a>
+	</nav>
+</footer>
+
+</body>
+</html>
